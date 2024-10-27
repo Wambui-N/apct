@@ -70,7 +70,7 @@ const Navbar = () => {
           <Button
             buttonStyle="bg-yellow uppercase text-brown text-sm"
             title="Join Us"
-            href="/Get_Involved"
+            href="/get-involved"
           />
         </div>
         <div className="lg:hidden">
@@ -107,7 +107,7 @@ const Navbar = () => {
                 <Button
                   buttonStyle="uppercase bg-brown text-yellow text-2xl my-2 font-semibold"
                   title="Join Us"
-                  href="/Get_Involved"
+                  href="/get-involved"
                 />
               </div>
             </div>
