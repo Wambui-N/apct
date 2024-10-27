@@ -7,10 +7,10 @@ import React from "react";
 
 const menuLinks = [
   { path: "/", label: "Home" },
-  { path: "/About", label: "About" },
-  { path: "/Work", label: "What We Do" },
-  { path: "/Careers", label: "Careers" },
-  { path: "/Contact", label: "Contact" },
+  { path: "/about", label: "About" },
+  { path: "/work", label: "What We Do" },
+  { path: "/careers", label: "Careers" },
+  { path: "/contact", label: "Contact" },
 ];
 const socialLinks = [
   { path: "#", label: "Facebook" },
