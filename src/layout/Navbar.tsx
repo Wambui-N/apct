@@ -10,9 +10,9 @@ import Button from "@/components/Button";
 
 const menuLinks = [
   { path: "/", label: "Home" },
-  { path: "/About", label: "About" },
-  { path: "/Work", label: "What We Do" },
-  { path: "/Contact", label: "Contact" },
+  { path: "/about", label: "About" },
+  { path: "/work", label: "What We Do" },
+  { path: "/contact", label: "Contact" },
 ];
 
 const Navbar = () => {
