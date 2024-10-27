@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import menuAnimation from '@/../public/menuAnimation.json'
 import React, { useEffect, useRef, useState } from "react";
 import Lottie from "lottie-react";
-import menuAnimation from "../../Public/menuAnimation.json";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import Button from "@/components/Button";
 
