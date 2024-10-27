@@ -2,20 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Base styles injected into the base layer */
+@layer base {
+  body {
+    @apply bg-white text-brown font-raleway w-full overflow-x-hidden;
+  }
+  p {
+    @apply leading-relaxed;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* Typography utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Layout utilities */
+  .responsive {
+    @apply max-w-screen-lg mx-auto lg:px-4 md:px-6 px-4;
+  }
+  
+  .section-padding {
+    @apply px-4 md:px-6 lg:px-24;
+  }
 }
