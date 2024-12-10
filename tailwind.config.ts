@@ -24,7 +24,7 @@ const config: Config = {
         'hero-img': "url('/hero-img.png')",
         'conservation': "url('/conservation.png')",
         'communities': "url('/communities.png')",
-        'education': "url('/education.png')",
+        'education': "url('/Education.png')",
       },
       colors: {
         white: "#FBF8F4",
