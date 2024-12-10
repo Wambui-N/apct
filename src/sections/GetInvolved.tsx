@@ -34,7 +34,7 @@ const GetInvolved = () => {
         <Button
           buttonStyle="bg-none text-Brown gap-1 hover:gap-2 transition-all ease-in-out delay-50 duration-200"
           title="Reach Out"
-          href="/get_involved"
+          href="/get-involved"
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"
