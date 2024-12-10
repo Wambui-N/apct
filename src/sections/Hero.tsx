@@ -15,12 +15,12 @@ const Hero = () => {
               <Button
                 buttonStyle="bg-white text-brown"
                 title="Get Involved"
-                href="/Get_Involved"
+                href="/get-involved"
               />
               <Button
                 buttonStyle="bg-none text-white gap-1 hover:gap-2 transition-all ease-in-out delay-50 duration-200"
                 title="Reach Out"
-                href="/Contact"
+                href="/contact"
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
