@@ -30,6 +30,7 @@ const KnowAboutUs = () => {
                 <Button
                   buttonStyle="bg-yellow capitalize text-brown"
                   title="Learn More"
+                  href="/about"
                 />
               </div>
           </div>
