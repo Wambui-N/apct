@@ -20,6 +20,7 @@ const ProjectFeature = ({ bg, title, p }: ProjectsFeatureProps) => {
             <Button
               buttonStyle="bg-yellow capitalize text-brown"
               title="Learn More"
+              href="/work"
             />
           </div>
         </div>
