@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Head from "next/head";
-import { usePathname } from "next/navigation";
+import CanonicalLink from "@/components/CanonicalLink";
 
 // Metadata
 export const metadata: Metadata = {
@@ -32,13 +32,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
-  const canonicalURL = `https://yourdomain.com${pathname}`;
   return (
     <html lang="en">
       <Head>
-        <link rel="canonical" href={canonicalURL} />
-
         <script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="efI+B8VMyyCyIpHNOeElmg"
@@ -48,6 +44,7 @@ export default function RootLayout({
           name="ahrefs-site-verification"
           content="8fc9c178bccf0c56e3ed474999f963ea7c66307dd913e0a9cbb9bb6f4b65da9b"
         />
+        <CanonicalLink />
       </Head>
       <body>
         <Navbar />
