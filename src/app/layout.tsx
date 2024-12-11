@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Head from "next/head";
+import { usePathname } from "next/navigation";
 
 // Metadata
 export const metadata: Metadata = {
@@ -31,9 +32,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
+  const canonicalURL = `https://yourdomain.com${pathname}`;
   return (
     <html lang="en">
       <Head>
+        <link rel="canonical" href={canonicalURL} />
+
         <script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="efI+B8VMyyCyIpHNOeElmg"
