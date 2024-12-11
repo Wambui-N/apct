@@ -1,8 +1,8 @@
-import WorkHero from "@/sections/WorkHero";
-import Conservation from "@/sections/Conservation";
-import Community from "@/sections/Community";
-import Education from "@/sections/Education";
-import Livestock from "@/sections/Livestock";
+import WorkHero from "@/components/work/WorkHero";
+import Conservation from "@/components/work/Conservation";
+import Community from "@/components/work/Community";
+import Education from "@/components/work/Education";
+import Livestock from "@/components/work/Livestock";
 
 export default function Work() {
     return <div>

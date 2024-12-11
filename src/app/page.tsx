@@ -1,7 +1,7 @@
-import GetInvolved from "@/sections/GetInvolved";
-import Hero from "@/sections/Hero";
-import KnowAboutUs from "@/sections/KnowAboutUs";
-import WhatWeDo from "@/sections/WhatWeDo";
+import GetInvolved from "@/components/home/GetInvolved";
+import Hero from "@/components/home/Hero";
+import KnowAboutUs from "@/components/home/KnowAboutUs";
+import WhatWeDo from "@/components/home/WhatWeDo";
 
 export default function Home() {
   return (

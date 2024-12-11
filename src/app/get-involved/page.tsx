@@ -1,6 +1,6 @@
-import { Donations } from "@/sections/Donations";
-import Internships from "@/sections/Internships";
-import Partnerships from "@/sections/Partnerships";
+import { Donations } from "@/components/get-involved/Donations";
+import Internships from "@/components/get-involved/Internships";
+import Partnerships from "@/components/get-involved/Partnerships";
 
 export default function GetInvolved() {
     return <div>
