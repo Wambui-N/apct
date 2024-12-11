@@ -90,7 +90,7 @@ const Navbar = () => {
         </div>
         <div className="max-lg:hidden">
           <Button
-            buttonStyle="bg-yellow border border-transparent hover:border-brown hover:bg-white uppercase text-brown text-sm"
+            buttonStyle="bg-yellow uppercase text-brown text-sm"
             title="Join Us"
             href="/get-involved"
           />
