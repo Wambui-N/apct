@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <script src="https://analytics.ahrefs.com/analytics.js" data-key="efI+B8VMyyCyIpHNOeElmg" defer></script>
+      <script src="https://analytics.ahrefs.com/analytics.js" data-key="efI+B8VMyyCyIpHNOeElmg" defer={true}></script>
       </Head>
       <body>
         <Navbar />
