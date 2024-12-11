@@ -1,5 +1,8 @@
+"use client";
+
 import { Button } from "@/components/Button";
 import Title from "@/components/Title";
+import { motion } from "framer-motion"; // Ensure this import is correct
 import Image from "next/image";
 import React from "react";
 
@@ -35,17 +38,21 @@ const KnowAboutUs = () => {
             </div>
           </div>
         </div>
-        <div
+        <motion.div
+          transition={{ duration: 0.5, delay: 0.5 }}
+          initial={{ x: 10, opacity: 0 }} // Starts off-screen to the right
+          whileInView={{ x: 0, opacity: 1 }} // Animates into view when scrolled into view
+          viewport={{ once: true }} // Ensures the animation triggers only once
           className="md:h-full h-[200px] w-auto md:pl-10"
         >
           <Image
             className="h-full object-cover object-bottom rounded-2xl"
             src="/landscape.png"
-            alt="alt"
+            alt="A beautiful landscape with lush greenery, supporting wildlife conservation."
             width={500}
             height={500}
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

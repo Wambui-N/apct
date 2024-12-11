@@ -49,10 +49,10 @@ export const Donations = () => {
                   as administrative costs are covered by Ankaa Africa.
                 </p>
 
-                <p className="text-lg font-bold text-brown">
+                <p className="">
                   <Button
                     buttonStyle="bg-yellow capitalize text-brown"
-                    title="Make a Donation"
+                    title="Contribute"
                   />
                   {/* TODO implement donation */}
                 </p>
