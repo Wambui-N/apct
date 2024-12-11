@@ -38,7 +38,11 @@ export default function RootLayout({
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="efI+B8VMyyCyIpHNOeElmg"
           defer={true}
-        ></script>
+        />
+        <meta
+          name="ahrefs-site-verification"
+          content="8fc9c178bccf0c56e3ed474999f963ea7c66307dd913e0a9cbb9bb6f4b65da9b"
+        />
       </Head>
       <body>
         <Navbar />
