@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import Head from "next/head";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -17,7 +18,8 @@ import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "African Plains Conservation Trust",
-  description: "African Plains Conservation of Trust is a non-profit organization that works towards sustainable conservation of select habitats and ecosystems in Kenya as well as development of neighbouring communities",
+  description:
+    "African Plains Conservation of Trust is a non-profit organization that works towards sustainable conservation of select habitats and ecosystems in Kenya as well as development of neighbouring communities",
 };
 
 export default function RootLayout({
@@ -27,8 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-      >
+      <Head>
+        <link rel="preload" href="/hero-img.png" as="image" type="image/png" />
+      </Head>
+      <body>
         <Navbar />
         {children}
         <Footer />
