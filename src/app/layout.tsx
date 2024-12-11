@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-
+import Head from "next/head";
 
 // Metadata
 export const metadata: Metadata = {
@@ -33,6 +33,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="efI+B8VMyyCyIpHNOeElmg" defer></script>
+      </Head>
       <body>
         <Navbar />
         {children}
