@@ -26,7 +26,7 @@
 /* Base styles injected into the base layer */
 @layer base {
   body {
-    @apply bg-white text-brown font-raleway w-full overflow-x-hidden;
+    @apply bg-white text-brown font-raleway w-screen overflow-x-hidden;
   }
   p {
     @apply leading-relaxed;
