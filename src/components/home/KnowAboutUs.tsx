@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+import { Button } from "@/components/Button";
 import Title from "@/components/Title";
 import Image from "next/image";
 import React from "react";
@@ -26,17 +26,23 @@ const KnowAboutUs = () => {
                 thrive together.
               </p>
             </div>
-              <div className="self-start">
-                <Button
-                  buttonStyle="bg-yellow capitalize text-brown"
-                  title="Learn More"
-                  href="/about"
-                />
-              </div>
+            <div className="self-start">
+              <Button
+                buttonStyle="bg-yellow capitalize text-brown"
+                title="Learn More"
+                href="/about"
+              />
+            </div>
           </div>
         </div>
         <div className="md:h-full h-[200px] w-auto md:pl-10">
-          <Image className="h-full object-cover object-bottom rounded-2xl" src="/landscape.png" alt="alt" width={500} height={500} />
+          <Image
+            className="h-full object-cover object-bottom rounded-2xl"
+            src="/landscape.png"
+            alt="alt"
+            width={500}
+            height={500}
+          />
         </div>
       </div>
     </div>

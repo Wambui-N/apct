@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Theme Colors */
+:root {
+  --background: #FBF8F4; /* Light neutral background */
+  --foreground: #391709; /* Dark gray for text */
+  --primary: #FFD93D; /* Simple blue */
+  --secondary: #FF8400; /* Simple green */
+  /* --accent: #FFD93D; Simple orange */
+  --muted: #6b7280; /* Neutral gray for muted text */
+  --border: #d1d5db; /* Light border gray */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1f2937; /* Dark neutral background */
+    --foreground: #f9fafb; /* Light gray for text */
+    --muted: #9ca3af; /* Muted text in dark mode */
+    --border: #374151; /* Darker gray for borders */
+  }
+}
+
 
 /* Base styles injected into the base layer */
 @layer base {

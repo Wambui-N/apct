@@ -25,6 +25,11 @@ const config: Config = {
         'education': "url('/Education.png')",
       },
       colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        primary: "var(--primary)", // Add a primary color
+        secondary: "var(--secondary)", // Add a secondary color
+        // accent: "var(--accent)", // Accent color for highlights
         white: "#FBF8F4",
         brown: "#391709",
         orange: "#FF8400",
