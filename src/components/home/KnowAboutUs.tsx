@@ -35,7 +35,9 @@ const KnowAboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="md:h-full h-[200px] w-auto md:pl-10">
+        <div
+          className="md:h-full h-[200px] w-auto md:pl-10"
+        >
           <Image
             className="h-full object-cover object-bottom rounded-2xl"
             src="/landscape.png"
