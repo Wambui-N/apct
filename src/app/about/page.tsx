@@ -6,9 +6,9 @@ import Trust from "@/components/about/Trust";
 export default function About() {
     return <div>
         <Background />
+        <Trust />
         <Mission />
         <Vision />
-        <Trust />
     </div>
 }
 

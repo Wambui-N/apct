@@ -27,7 +27,7 @@ const Background = () => {
                 This is only possible when the communities derive value from the
                 wildlife and their livelihoods are enhanced by the association.
               </p>
-              <Image className="py-4 w-full rounded-2xl" src="/Background.png" alt="alt" quality={100} width={500} height={500} />
+              <Image className="py-4 w-full rounded-2xl" src="/Livestock.JPG" alt="Livestock" quality={100} width={300} height={200} />
             </div>
           }
         />

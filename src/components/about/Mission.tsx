@@ -9,7 +9,7 @@ const Mission = () => {
           children={
             <div className="flex flex-col gap-3">
               <p className="">
-              A future of shared prosperity where communities advance economically and culturally while wildlife populations and natural ecosystems thrive and continue to the current and future human endeavors.
+              Mission of the trust is to imagine, design, and initiate practical programmes to support conservation and communities living within and alongside the African plains where we have tourism businesses
               </p>
             </div>
           }
